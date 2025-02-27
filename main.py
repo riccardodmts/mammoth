@@ -28,6 +28,7 @@ import uuid
 import argparse
 import torch
 torch.set_num_threads(2)
+#os.environ["CUDA_VISIBLE_DEVICES"] = "1"
 
 # if file is launched inside the `utils` folder
 if os.path.dirname(__file__) == 'utils':
